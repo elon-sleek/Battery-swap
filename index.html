@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VoltKeke — Battery Swap Revolution | Abia State</title>
+  <meta name="description" content="Abia State's premier EV tuk-tuk conversion and battery swap network. Clean, affordable, electric mobility." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ──────────────────────────────── PRELOADER ──────────────────────────────── -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="battery-icon preloader-battery">
+        <div class="battery-body">
+          <div class="battery-fill" id="preloader-fill"></div>
+        </div>
+        <div class="battery-tip"></div>
+      </div>
+      <p class="preloader-text">CHARGING THE FUTURE<span class="dots"></span></p>
+    </div>
+  </div>
+
+  <!-- ──────────────────────────────── NAV ──────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-volt">⚡</span>
+        <span class="logo-text">VOLT<span class="logo-accent">KEKE</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#problem">The Problem</a></li>
+        <li><a href="#solution">Our Solution</a></li>
+        <li><a href="#routes">Routes</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#contact" class="nav-cta">Join the Revolution</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#problem" class="mobile-link">The Problem</a>
+      <a href="#solution" class="mobile-link">Our Solution</a>
+      <a href="#routes" class="mobile-link">Routes</a>
+      <a href="#how" class="mobile-link">How It Works</a>
+      <a href="#contact" class="mobile-link mobile-cta">Join the Revolution</a>
+    </div>
+  </nav>
+
+  <!-- ──────────────────────────────── HERO ──────────────────────────────── -->
+  <section id="hero">
+    <!-- Floating animated objects -->
+    <div class="float-objects" aria-hidden="true">
+      <div class="float-obj battery-float f1"></div>
+      <div class="float-obj bolt-float f2">⚡</div>
+      <div class="float-obj keke-float f3">🛺</div>
+      <div class="float-obj battery-float f4"></div>
+      <div class="float-obj bolt-float f5">⚡</div>
+      <div class="float-obj orbit-ring ring1"></div>
+      <div class="float-obj orbit-ring ring2"></div>
+      <div class="float-obj orbit-ring ring3"></div>
+      <div class="float-obj particle p1"></div>
+      <div class="float-obj particle p2"></div>
+      <div class="float-obj particle p3"></div>
+      <div class="float-obj particle p4"></div>
+      <div class="float-obj particle p5"></div>
+      <div class="float-obj particle p6"></div>
+    </div>
+
+    <!-- Grid overlay -->
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <!-- Hero content -->
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">ABIA STATE · EV REVOLUTION</div>
+      <h1 class="hero-title reveal-up">
+        THE FUTURE<br />
+        <span class="title-accent">RUNS ON</span><br />
+        ELECTRICITY.
+      </h1>
+      <p class="hero-sub reveal-up">
+        We convert petrol-powered tuk-tuks into clean electric vehicles<br />
+        and power them through an instant battery swap network<br />
+        across Abia State's busiest routes.
+      </p>
+      <div class="hero-ctas reveal-up">
+        <a href="#solution" class="btn-primary">Discover VoltKeke</a>
+        <a href="#how" class="btn-secondary">See How It Works</a>
+      </div>
+      <div class="hero-stats reveal-up">
+        <div class="stat">
+          <span class="stat-num" data-target="100">0</span><span class="stat-unit">%</span>
+          <span class="stat-label">Emission-Free</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="60">0</span><span class="stat-unit">%</span>
+          <span class="stat-label">Cost Savings</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="4">0</span>
+          <span class="stat-label">Key Routes Covered</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ──────────────────────────────── PROBLEM ──────────────────────────────── -->
+  <section id="problem" class="section">
+    <div class="section-container">
+      <div class="section-label reveal-left">THE PROBLEM</div>
+      <h2 class="section-title reveal-up">Petrol is <span class="strike-text">Killing</span><br />Your Business.</h2>
+
+      <div class="problem-grid">
+        <div class="problem-card reveal-up" style="--delay: 0s">
+          <div class="problem-icon">☁️</div>
+          <h3>Dirty Emissions</h3>
+          <p>Petrol combustion releases toxic CO₂, NOₓ and particulates into the air your customers and family breathe every single day.</p>
+          <div class="problem-bar"><div class="problem-fill" style="--pct: 95%"></div></div>
+          <span class="problem-metric">95% more polluting than EV</span>
+        </div>
+        <div class="problem-card reveal-up" style="--delay: 0.15s">
+          <div class="problem-icon">📈</div>
+          <h3>Volatile Costs</h3>
+          <p>Petrol prices surge without warning. Every scarcity, every government policy, every global crisis hits your pocket directly.</p>
+          <div class="problem-bar"><div class="problem-fill" style="--pct: 88%"></div></div>
+          <span class="problem-metric">Price swings up to 300%</span>
+        </div>
+        <div class="problem-card reveal-up" style="--delay: 0.3s">
+          <div class="problem-icon">🔧</div>
+          <h3>Constant Repairs</h3>
+          <p>Engines, carburettors, exhausts, fuel pumps — petrol engines have hundreds of parts that break, wear and drain your earnings.</p>
+          <div class="problem-bar"><div class="problem-fill" style="--pct: 80%"></div></div>
+          <span class="problem-metric">3× more maintenance costs</span>
+        </div>
+        <div class="problem-card reveal-up" style="--delay: 0.45s">
+          <div class="problem-icon">⏱️</div>
+          <h3>Lost Time = Lost Money</h3>
+          <p>Long queues at petrol stations, breakdowns mid-route — every minute spent fuelling or fixing is a trip you didn't complete.</p>
+          <div class="problem-bar"><div class="problem-fill" style="--pct: 75%"></div></div>
+          <span class="problem-metric">~2 hrs lost weekly in queues</span>
+        </div>
+      </div>
+
+      <!-- Pollution visual -->
+      <div class="smoke-visual reveal-up">
+        <div class="smoke-keke">🛺💨</div>
+        <div class="vs-badge">VS</div>
+        <div class="smoke-keke ev-keke">🛺⚡</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────────────────────────────── SOLUTION ──────────────────────────────── -->
+  <section id="solution" class="section section-dark">
+    <div class="section-container">
+      <div class="section-label reveal-right">THE SOLUTION</div>
+      <h2 class="section-title reveal-up">Clean. Stable. <span class="accent">Electric.</span></h2>
+      <p class="section-intro reveal-up">
+        Abia State enjoys some of the most consistent electricity supply in Nigeria. We put that advantage to work — converting your keke to EV and giving you instant-swap battery stations on every major route.
+      </p>
+
+      <div class="solution-features">
+        <div class="solution-feature reveal-left">
+          <div class="feature-number">01</div>
+          <div class="feature-content">
+            <h3>EV Conversion</h3>
+            <p>We rip out the old petrol engine and install a high-performance electric drivetrain. Same keke. Zero emissions. Better performance.</p>
+          </div>
+          <div class="feature-visual">
+            <div class="conversion-anim">
+              <div class="conv-before">⛽</div>
+              <div class="conv-arrow">→</div>
+              <div class="conv-after">⚡</div>
+            </div>
+          </div>
+        </div>
+        <div class="solution-feature reveal-right">
+          <div class="feature-number">02</div>
+          <div class="feature-content">
+            <h3>Battery Swap Network</h3>
+            <p>No waiting to charge. Ride to a swap station, slide out your depleted battery, slide in a fully charged one — and go. Under 90 seconds.</p>
+          </div>
+          <div class="feature-visual">
+            <div class="swap-anim">
+              <div class="swap-battery depleted">🔋</div>
+              <div class="swap-icon">⇄</div>
+              <div class="swap-battery charged">🔋</div>
+            </div>
+          </div>
+        </div>
+        <div class="solution-feature reveal-left">
+          <div class="feature-number">03</div>
+          <div class="feature-content">
+            <h3>Stable, Low-Cost Energy</h3>
+            <p>Electricity prices are predictable. Budget with confidence. No more price shocks. Your energy cost stays flat while petrol riders spiral.</p>
+          </div>
+          <div class="feature-visual">
+            <div class="chart-anim">
+              <div class="chart-bar petrol-bar" data-height="85">
+                <span>Petrol</span>
+              </div>
+              <div class="chart-bar elec-bar" data-height="30">
+                <span>Electric</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comparison table -->
+      <div class="compare-table reveal-up">
+        <div class="compare-header">
+          <div class="compare-col-label">Factor</div>
+          <div class="compare-col petrol-col">⛽ PETROL KEKE</div>
+          <div class="compare-col ev-col">⚡ VOLTKEKE EV</div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-factor">Fuel Cost / Day</div>
+          <div class="compare-bad">₦3,000 – ₦5,000</div>
+          <div class="compare-good">₦500 – ₦900</div>
+        </div>
+        <div class="compare-row alt">
+          <div class="compare-factor">Emissions</div>
+          <div class="compare-bad">Toxic CO₂ + NOₓ</div>
+          <div class="compare-good">Zero</div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-factor">Maintenance</div>
+          <div class="compare-bad">High (engine parts)</div>
+          <div class="compare-good">Minimal (no engine)</div>
+        </div>
+        <div class="compare-row alt">
+          <div class="compare-factor">Fuel Availability</div>
+          <div class="compare-bad">Queue-dependent</div>
+          <div class="compare-good">Always-on grid</div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-factor">Refuel/Swap Time</div>
+          <div class="compare-bad">15 – 45 minutes</div>
+          <div class="compare-good">&lt; 90 seconds</div>
+        </div>
+        <div class="compare-row alt">
+          <div class="compare-factor">Price Stability</div>
+          <div class="compare-bad">Volatile</div>
+          <div class="compare-good">Predictable</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────────────────────────────── ROUTES ──────────────────────────────── -->
+  <section id="routes" class="section">
+    <div class="section-container">
+      <div class="section-label reveal-left">COVERAGE</div>
+      <h2 class="section-title reveal-up">Abia's Busiest Routes.<br /><span class="accent">Fully Covered.</span></h2>
+      <p class="section-intro reveal-up">
+        Swap stations are strategically placed at both ends of every target route — so you never run out of power, no matter where you're headed.
+      </p>
+
+      <!-- Map visual -->
+      <div class="route-map-container reveal-up">
+        <div class="map-hub">
+          <div class="hub-pulse"></div>
+          <div class="hub-core">MAIN<br/>PARK</div>
+        </div>
+        <div class="route-lines" aria-hidden="true">
+          <div class="route-line route-line-1"></div>
+          <div class="route-line route-line-2"></div>
+          <div class="route-line route-line-3"></div>
+          <div class="route-line route-line-4"></div>
+        </div>
+        <div class="route-nodes">
+          <div class="route-node node-1">
+            <div class="node-dot"></div>
+            <div class="node-label">Osisioma<br/>Junction</div>
+          </div>
+          <div class="route-node node-2">
+            <div class="node-dot"></div>
+            <div class="node-label">Ngwa<br/>Road</div>
+          </div>
+          <div class="route-node node-3">
+            <div class="node-dot"></div>
+            <div class="node-label">Port Harcourt<br/>Road</div>
+          </div>
+          <div class="route-node node-4">
+            <div class="node-dot"></div>
+            <div class="node-label">Ogbor<br/>Hill</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Route cards -->
+      <div class="routes-grid">
+        <div class="route-card reveal-up" style="--delay: 0s">
+          <div class="route-number">01</div>
+          <div class="route-info">
+            <h3>Park → Osisioma Junction</h3>
+            <p>High-density commercial route. Swap stations at Main Park terminal and Osisioma Junction interchange.</p>
+          </div>
+          <div class="route-badge">LIVE</div>
+        </div>
+        <div class="route-card reveal-up" style="--delay: 0.12s">
+          <div class="route-number">02</div>
+          <div class="route-info">
+            <h3>Park → Ngwa Road</h3>
+            <p>Market and residential corridor. Battery power banks positioned for maximum driver convenience.</p>
+          </div>
+          <div class="route-badge">LIVE</div>
+        </div>
+        <div class="route-card reveal-up" style="--delay: 0.24s">
+          <div class="route-number">03</div>
+          <div class="route-info">
+            <h3>Park → Port Harcourt Road</h3>
+            <p>Inter-city feeder route with heavy keke traffic. Strategic swap point at the PH Road terminal.</p>
+          </div>
+          <div class="route-badge">LIVE</div>
+        </div>
+        <div class="route-card reveal-up" style="--delay: 0.36s">
+          <div class="route-number">04</div>
+          <div class="route-info">
+            <h3>Park → Ogbor Hill</h3>
+            <p>Industrial and residential hub. End-point swap station ensures continuous service all day.</p>
+          </div>
+          <div class="route-badge">LIVE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────────────────────────────── HOW IT WORKS ──────────────────────────────── -->
+  <section id="how" class="section section-dark">
+    <div class="section-container">
+      <div class="section-label reveal-right">PROCESS</div>
+      <h2 class="section-title reveal-up">From Petrol to Electric<br /><span class="accent">in 3 Steps.</span></h2>
+
+      <div class="steps-container">
+        <div class="step reveal-up" style="--delay: 0s">
+          <div class="step-visual">
+            <div class="step-circle">
+              <span class="step-icon">🛺</span>
+            </div>
+            <div class="step-connector"></div>
+          </div>
+          <div class="step-content">
+            <div class="step-num">STEP 01</div>
+            <h3>Bring Your Keke</h3>
+            <p>Bring your tuk-tuk to our conversion centre. Our engineers assess it, strip the petrol drivetrain, and prepare it for electrification. Most conversions take 48–72 hours.</p>
+          </div>
+        </div>
+        <div class="step reveal-up" style="--delay: 0.2s">
+          <div class="step-visual">
+            <div class="step-circle">
+              <span class="step-icon">⚡</span>
+            </div>
+            <div class="step-connector"></div>
+          </div>
+          <div class="step-content">
+            <div class="step-num">STEP 02</div>
+            <h3>Electrify & Certify</h3>
+            <p>We install our purpose-built EV kit: motor, battery housing, smart controller and safety systems. Your keke is then certified and registered as an electric vehicle.</p>
+          </div>
+        </div>
+        <div class="step reveal-up" style="--delay: 0.4s">
+          <div class="step-visual">
+            <div class="step-circle">
+              <span class="step-icon">🔋</span>
+            </div>
+            <div class="step-connector last"></div>
+          </div>
+          <div class="step-content">
+            <div class="step-num">STEP 03</div>
+            <h3>Swap & Earn</h3>
+            <p>Join our battery subscription plan. When your battery runs low, pull into any VoltKeke swap station on your route, swap in under 90 seconds, and keep earning without interruption.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Energy flow animation -->
+      <div class="energy-flow reveal-up">
+        <div class="flow-item">
+          <div class="flow-icon">🌞</div>
+          <div class="flow-label">Grid Energy</div>
+        </div>
+        <div class="flow-arrow">
+          <div class="flow-line"><div class="flow-pulse"></div></div>
+        </div>
+        <div class="flow-item">
+          <div class="flow-icon">⚡</div>
+          <div class="flow-label">Swap Station</div>
+        </div>
+        <div class="flow-arrow">
+          <div class="flow-line"><div class="flow-pulse" style="animation-delay:0.5s"></div></div>
+        </div>
+        <div class="flow-item">
+          <div class="flow-icon">🔋</div>
+          <div class="flow-label">Your Battery</div>
+        </div>
+        <div class="flow-arrow">
+          <div class="flow-line"><div class="flow-pulse" style="animation-delay:1s"></div></div>
+        </div>
+        <div class="flow-item">
+          <div class="flow-icon">🛺</div>
+          <div class="flow-label">Your Keke</div>
+        </div>
+        <div class="flow-arrow">
+          <div class="flow-line"><div class="flow-pulse" style="animation-delay:1.5s"></div></div>
+        </div>
+        <div class="flow-item">
+          <div class="flow-icon">💰</div>
+          <div class="flow-label">Your Profit</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────────────────────────────── IMPACT ──────────────────────────────── -->
+  <section id="impact" class="section">
+    <div class="section-container">
+      <div class="section-label reveal-left">IMPACT</div>
+      <h2 class="section-title reveal-up">Numbers That<br /><span class="accent">Change Lives.</span></h2>
+
+      <div class="impact-grid">
+        <div class="impact-card reveal-up" style="--delay: 0s">
+          <div class="impact-num">
+            <span class="counter" data-target="500">0</span><span>+</span>
+          </div>
+          <div class="impact-label">Kekes to Convert</div>
+          <div class="impact-desc">Phase 1 target across all 4 routes</div>
+        </div>
+        <div class="impact-card reveal-up" style="--delay: 0.15s">
+          <div class="impact-num">
+            ₦<span class="counter" data-target="1500">0</span>M+
+          </div>
+          <div class="impact-label">Annual Driver Savings</div>
+          <div class="impact-desc">Money that stays in Abia State</div>
+        </div>
+        <div class="impact-card reveal-up" style="--delay: 0.3s">
+          <div class="impact-num">
+            <span class="counter" data-target="2000">0</span>T
+          </div>
+          <div class="impact-label">CO₂ Avoided / Year</div>
+          <div class="impact-desc">Tonnes of pollution eliminated</div>
+        </div>
+        <div class="impact-card reveal-up" style="--delay: 0.45s">
+          <div class="impact-num">
+            <span class="counter" data-target="8">0</span>
+          </div>
+          <div class="impact-label">Swap Stations</div>
+          <div class="impact-desc">Powered by Abia's stable grid</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────────────────────────────── CTA ──────────────────────────────── -->
+  <section id="contact" class="section section-cta">
+    <div class="cta-particles" aria-hidden="true">
+      <div class="cta-particle cp1">⚡</div>
+      <div class="cta-particle cp2">🔋</div>
+      <div class="cta-particle cp3">⚡</div>
+      <div class="cta-particle cp4">🛺</div>
+      <div class="cta-particle cp5">⚡</div>
+    </div>
+    <div class="section-container">
+      <div class="cta-inner reveal-up">
+        <div class="cta-badge">EARLY MOVER ADVANTAGE</div>
+        <h2 class="cta-title">Join the Electric<br />Revolution Today.</h2>
+        <p class="cta-sub">
+          Be among the first keke operators in Abia State to go electric.<br />
+          Lower costs. Zero guilt. All profit.
+        </p>
+        <form class="cta-form" id="cta-form" novalidate>
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your Name" required autocomplete="name" />
+            <input type="tel" name="phone" placeholder="Phone Number" required autocomplete="tel" />
+          </div>
+          <div class="form-row">
+            <select name="route">
+              <option value="" disabled selected>Select your route</option>
+              <option value="osisioma">Park → Osisioma Junction</option>
+              <option value="ngwa">Park → Ngwa Road</option>
+              <option value="ph">Park → Port Harcourt Road</option>
+              <option value="ogbor">Park → Ogbor Hill</option>
+            </select>
+            <input type="number" name="kekes" placeholder="Number of kekes" min="1" />
+          </div>
+          <button type="submit" class="btn-primary btn-full">
+            <span>ELECTRIFY MY KEKE</span>
+            <span class="btn-icon">⚡</span>
+          </button>
+          <p class="form-note">We'll contact you within 24 hours. No commitment required.</p>
+        </form>
+        <div id="form-success" class="form-success hidden">
+          <div class="success-icon">✅</div>
+          <h3>You're on the list!</h3>
+          <p>We'll be in touch within 24 hours. Welcome to the revolution.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────────────────────────────── FOOTER ──────────────────────────────── -->
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <span class="logo-volt">⚡</span>
+        <span class="logo-text">VOLT<span class="logo-accent">KEKE</span></span>
+      </div>
+      <p class="footer-tagline">Powering Abia's Roads. Cleaning Abia's Air.</p>
+      <div class="footer-links">
+        <a href="#problem">The Problem</a>
+        <a href="#solution">Our Solution</a>
+        <a href="#routes">Routes</a>
+        <a href="#how">How It Works</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>© 2026 VoltKeke. All rights reserved. | Aba, Abia State, Nigeria.</p>
+        <p class="footer-motto">The future doesn't burn petrol. ⚡</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
